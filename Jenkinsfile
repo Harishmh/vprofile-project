@@ -30,7 +30,7 @@ pipeline {
             }
         }
 
-	stage('UNIT TEST'){
+	stage('UNIT TESTS and TESTS'){
             steps {
                 sh 'mvn test'
             }
